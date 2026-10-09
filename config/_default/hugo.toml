@@ -1,0 +1,28 @@
+baseURL = "https://example.com/"
+defaultContentLanguage = "zh"
+title = "米斯特周"
+theme = "hugo-theme-stack"
+
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage = true
+
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+
+[services.disqus]
+    shortname = "hugo-theme-stack"
+
+[security]
+  [security.http]
+    urls = ['(?i)^https?://.*']

@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon        = "img/favicon.png"
+favicon        = "/img/favicon.png"
 
 # Accepted values: "default", "lastmod"
 # default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
@@ -10,7 +10,7 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
+    since      = 2005
     customText = ""
 
 [dateFormat]
@@ -19,11 +19,11 @@ SortBy              = "default"
 
 [sidebar]
     emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    avatar   = "img/avatar.png"
+    subtitle = "Dream Comes True."
+    avatar   = "/img/avatar.jpg"
 
 [article]
-    headingAnchor = false
+    headingAnchor = true
     math          = false
     readingTime   = true
 
@@ -55,3 +55,11 @@ SortBy              = "default"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.
+
+[cookies]
+    enabled      = false
+    showSettings = true
+
+    [cookies.categories]
+        analytics  = true
+        functional = true
