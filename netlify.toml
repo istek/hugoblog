@@ -6,7 +6,7 @@ command = """\
   """
 
 [build.environment]
-GO_VERSION = "1.27.1"
+GO_VERSION = "1.22.0"
 HUGO_VERSION = "0.167.0"
 NODE_VERSION = "24.21.0"
 TZ = "Asia/Shanghai"
