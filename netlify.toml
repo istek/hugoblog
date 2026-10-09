@@ -1,7 +1,12 @@
 [build]
-  command = "bash scripts/build-hugo.sh"
-  publish = "public"
+publish = "public"
+command = """\
+  git config --global core.quotepath false && \
+  hugo build --gc --minify --baseURL "${URL}"
+  """
 
 [build.environment]
-  HUGO_VERSION = "0.167.0"
-  HUGO_ENABLEGITINFO = "false"
+GO_VERSION = "1.27.1"
+HUGO_VERSION = "0.167.0"
+NODE_VERSION = "24.21.0"
+TZ = "Asia/Shanghai"
