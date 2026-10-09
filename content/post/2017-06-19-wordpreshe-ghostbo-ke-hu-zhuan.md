@@ -1,5 +1,5 @@
 ---
-title: "Wordpres和Ghost博客互转"
+title: Wordpres和Ghost博客互转
 date: 2017-06-19T12:29:50+00:00
 layout: post
 categories:
@@ -75,6 +75,7 @@ zip wp2ghost.zip wp2ghost_export_1418184250.json
 {% endraw %}
 {% endhighlight %}
 ```
+
 注意：代码中**你的disqus网站名**，这个填你自己的网站名。
 
 编辑`ghost/content/themes/casper/default.hbs`文件，在`</body>`之前增加如下代码
