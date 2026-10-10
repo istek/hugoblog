@@ -1,31 +1,10 @@
 [menu]
     [[menu.main]]
-        name = "首页"
-        pageRef = "index"
-        weight = 1
-        [menu.main.params]
-            icon = "home"
-            newTab = false
-    [[menu.main]]
-        name = "文章归档"
-        pageRef = "archives"
-        weight = 5
-        [menu.main.params]
-            icon = "archives"
-            newTab = false
-    [[menu.main]]
         name = "关于"
         pageRef = "about"
         weight = 10
         [menu.main.params]
             icon = "user"
-            newTab = false
-    [[menu.main]]
-        name = "站内搜索"
-        pageRef = "search"
-        weight = 15
-        [menu.main.params]
-            icon = "search"
             newTab = false
     [[menu.main]]
         name = "Tags"
